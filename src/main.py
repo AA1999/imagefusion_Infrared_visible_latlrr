@@ -1,6 +1,6 @@
 from os.path import join
 from time import time
-from latent_llr import latent_llr
+from latent_lrr import latent_lrr
 from matplotlib.pyplot import imshow, figure, axis, show
 from numpy import maximum, minimum, asarray, uint8
 from PIL import Image
