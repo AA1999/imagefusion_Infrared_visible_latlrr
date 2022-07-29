@@ -2,7 +2,7 @@ from numpy import array, copy, transpose, eye, zeros, diag, sum, maximum, minimu
 from numpy.linalg import inv, svd
 from dataclasses import dataclass
 
-def latent_llr(X: array, lambda_value: float) -> tuple:
+def latent_lrr(X: array, lambda_value: float) -> tuple:
     A = copy(X)
     tol = pow(10, -6)
     rho = 1.1
