@@ -25,9 +25,9 @@ Finally, the fused image is obtained by combining the fused low-rank part and th
 
 
 ## Source code
-1 fusion_latlrr.m ----- our method
+1 src/main.py ----- Their method in python
 
-2 latlent_lrr.m ------- latent low-rank representation method
+2 src/latlent_lrr.py ------- latent low-rank representation method in python
 
 
 ## Latent LRR
@@ -50,3 +50,4 @@ For codes:
     note = {\url{https://github.com/exceptionLi/imagefusion_Infrared_visible_latlrr}}
   }
 ```
+Please note: This is a python conversion of the original project that I have done in python. The credits of the algorithm still goes to their respective owners.
